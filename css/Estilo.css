@@ -1,0 +1,76 @@
+@font-face {
+    font-family:'Big Shoulders Display' ;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+}
+
+main{
+    display: flex;
+    margin: auto;
+    margin-top: 4cm;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+.esquerda{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    padding: 20px;
+}
+
+.esquerda button{
+    color: hsl(31, 77%, 52%);
+    border-color: hsl(0, 0%, 95%);
+}
+
+.esquerda button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.meio{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+}
+
+.meio button{
+    color: hsl(184, 100%, 22%);
+    border-color: hsl(0, 0%, 95%);
+}
+
+.meio button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.direita{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+}
+
+.direita button{
+    color: hsl(179, 100%, 13%);
+    border-color: hsl(0, 0%, 95%);
+}
+
+.direita button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    text-align: left;
+    line-height: 25px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 50px;
+}
+
+button{
+    
+    padding: 10px;
+    border-radius:  20px;
+}
