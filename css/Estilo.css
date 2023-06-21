@@ -3,12 +3,17 @@
     src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+}
+
 main{
     display: flex;
-    margin: auto;
-    margin-top: 4cm;
-    min-width: 320px;
     max-width: 800px;
+    max-height: 380px;
 }
 
 .esquerda{
@@ -70,7 +75,6 @@ p{
 }
 
 button{
-    
     padding: 10px;
     border-radius:  20px;
 }
